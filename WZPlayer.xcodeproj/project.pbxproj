@@ -10,7 +10,6 @@
 		53F4CB401D35D25900EE7C17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4CB3F1D35D25900EE7C17 /* main.m */; };
 		53F4CB431D35D25900EE7C17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4CB421D35D25900EE7C17 /* AppDelegate.m */; };
 		53F4CB491D35D25900EE7C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F4CB471D35D25900EE7C17 /* Main.storyboard */; };
-		53F4CB4B1D35D25900EE7C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F4CB4A1D35D25900EE7C17 /* Assets.xcassets */; };
 		53F4CB4E1D35D25900EE7C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F4CB4C1D35D25900EE7C17 /* LaunchScreen.storyboard */; };
 		53F4CB591D35D25900EE7C17 /* WZPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4CB581D35D25900EE7C17 /* WZPlayerTests.m */; };
 		53F4CB641D35D25900EE7C17 /* WZPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4CB631D35D25900EE7C17 /* WZPlayerUITests.m */; };
@@ -58,6 +57,7 @@
 		53F4CC091D36158E00EE7C17 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4CBF71D36158E00EE7C17 /* UIImageView+HighlightedWebCache.m */; };
 		53F4CC0A1D36158E00EE7C17 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4CBF91D36158E00EE7C17 /* UIImageView+WebCache.m */; };
 		53F4CC0B1D36158E00EE7C17 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4CBFB1D36158E00EE7C17 /* UIView+WebCacheOperation.m */; };
+		53F4CCD31D3626AA00EE7C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F4CCD21D3626AA00EE7C17 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +83,6 @@
 		53F4CB411D35D25900EE7C17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53F4CB421D35D25900EE7C17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		53F4CB481D35D25900EE7C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53F4CB4A1D35D25900EE7C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53F4CB4D1D35D25900EE7C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53F4CB4F1D35D25900EE7C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53F4CB541D35D25900EE7C17 /* WZPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +183,7 @@
 		53F4CBF91D36158E00EE7C17 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		53F4CBFA1D36158E00EE7C17 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		53F4CBFB1D36158E00EE7C17 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		53F4CCD21D3626AA00EE7C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,8 +245,8 @@
 				53F4CB421D35D25900EE7C17 /* AppDelegate.m */,
 				53F4CBD71D36149100EE7C17 /* MainViewController.h */,
 				53F4CBD81D36149100EE7C17 /* MainViewController.m */,
+				53F4CCD21D3626AA00EE7C17 /* Assets.xcassets */,
 				53F4CB471D35D25900EE7C17 /* Main.storyboard */,
-				53F4CB4A1D35D25900EE7C17 /* Assets.xcassets */,
 				53F4CB4C1D35D25900EE7C17 /* LaunchScreen.storyboard */,
 				53F4CB4F1D35D25900EE7C17 /* Info.plist */,
 				53F4CB3E1D35D25900EE7C17 /* Supporting Files */,
@@ -557,9 +557,9 @@
 			files = (
 				53F4CB881D35EFCE00EE7C17 /* ZFPlayer.bundle in Resources */,
 				53F4CB4E1D35D25900EE7C17 /* LaunchScreen.storyboard in Resources */,
-				53F4CB4B1D35D25900EE7C17 /* Assets.xcassets in Resources */,
 				53F4CBA81D35F08F00EE7C17 /* Info.plist in Resources */,
 				53F4CB491D35D25900EE7C17 /* Main.storyboard in Resources */,
+				53F4CCD31D3626AA00EE7C17 /* Assets.xcassets in Resources */,
 				53F4CBD31D36148100EE7C17 /* videoData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -857,6 +857,7 @@
 				53F4CB6A1D35D25900EE7C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F4CB6B1D35D25900EE7C17 /* Build configuration list for PBXNativeTarget "WZPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -865,6 +866,7 @@
 				53F4CB6D1D35D25900EE7C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53F4CB6E1D35D25900EE7C17 /* Build configuration list for PBXNativeTarget "WZPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -873,6 +875,7 @@
 				53F4CB701D35D25900EE7C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
